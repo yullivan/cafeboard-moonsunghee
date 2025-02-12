@@ -1,0 +1,20 @@
+:root {
+  --top-height: 50px;
+}
+
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-between() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin layout-center {
+  width: 85%;
+  margin: 0 auto;
+}
