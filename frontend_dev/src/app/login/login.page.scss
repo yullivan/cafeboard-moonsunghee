@@ -1,0 +1,20 @@
+@import '../_mixin';
+
+.login {
+  section {
+    form {
+      width: 80%;
+      margin: 0 auto;
+      @include flex-center;
+      flex-direction: column;
+
+      input {
+        margin-top: 20px;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

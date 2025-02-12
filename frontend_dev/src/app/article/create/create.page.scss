@@ -1,0 +1,36 @@
+.create {
+  section {
+    form {
+      .post {
+        margin-top: 20px;
+
+        &:first-of-type {
+          margin-top: 0;
+        }
+
+        &-title {
+          input {
+            line-height: 20px;
+            font-size: 16px;
+          }
+        }
+
+        &-content {
+          textarea {
+            line-height: 20px;
+            height: 200px;
+          }
+        }
+
+        &-btns {
+          display: flex;
+          column-gap: 20px;
+        }
+
+        label {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
